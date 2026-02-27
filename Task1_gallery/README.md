@@ -7,7 +7,8 @@ import QtQuick
 import QtQuick.Window
 ```
 QtQuick provides UI elements like Rectangle, Image, and Timer.
-QtQuick.Window allows using the Window element
+
+QtQuick.Window allows using the Window element.
 
 ## main window
 
@@ -19,7 +20,8 @@ Window {
 }
 ```
 width and height define window size.
-visible: true makes the window appear at startup
+
+visible: true makes the window appear at startup.
 
 ## Splash Control Property
 
@@ -27,7 +29,8 @@ visible: true makes the window appear at startup
 property bool showSplash: true
 ```
 This Boolean property controls splash visibility.
-Initially set to true so the splash appears first
+
+Initially set to true so the splash appears first.
 
 ## Timer
 
@@ -40,8 +43,11 @@ Timer {
 }
 ```
 interval: 3000 → 3 seconds.
+
 running: true → starts automatically.
+
 repeat: false → runs only once.
+
 After 3 seconds, splash disappears.
 
 ## Splash Layer
@@ -54,7 +60,9 @@ Rectangle {
 }
 ```
 Covers full window.
+
 Visibility controlled by showSplash.
+
 z: 1 makes it appear above other items.
 
 ## Splash Image
@@ -69,10 +77,13 @@ Image {
 }
 ```
 Loads image from Qt Resource System.
-Keeps aspect ratio without distortion
 
-run with clrt+r that will appear image for 3 seconds and disapeared
+Keeps aspect ratio without distortion.
+
+run with clrt+r that will appear image for 3 seconds and disapeared.
+
 notes:
+
 the way of load image from qrc it is recommeded use it at all times 
 
 
