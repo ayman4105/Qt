@@ -23,6 +23,16 @@ width and height define window size.
 
 visible: true makes the window appear at startup.
 
+## Window Positioning in Qt Quick
+
+```qml
+x:300
+y:100
+```
+x: 300 → Sets the horizontal position of the window 300 pixels from the left edge of the screen.
+
+y: 100 → Sets the vertical position of the window 100 pixels from the top edge of the screen.
+
 ## Splash Control Property
 
 ```qml
