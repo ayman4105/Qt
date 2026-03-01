@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>Pasted image.png</file>
+        <file>Pasted image4.png</file>
+        <file>Pasted image3.png</file>
+        <file>Pasted image2.png</file>
+        <file>Pasted image1.png</file>
     </qresource>
 </RCC>
