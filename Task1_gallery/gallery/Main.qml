@@ -84,7 +84,7 @@ Window {
                     showSplash = false
                 }
             }
-
+            // skip bottom
             Rectangle {
                 width: 100
                 height: 40
@@ -468,7 +468,7 @@ Window {
                 // Close Button
                 Rectangle {
                     width: 120
-                    height: 40
+                    height: 30
                     color: "#5C0000"
                     radius: 8
                     border.color: "#FFD700"
@@ -543,7 +543,7 @@ Window {
 
                 Rectangle {
                     width: 120
-                    height: 40
+                    height: 30
                     color: "#5C0000"
                     radius: 8
                     border.color: "#FFD700"
